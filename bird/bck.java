@@ -14,9 +14,8 @@ public class bck extends World
      * 
      */
     public bck()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(720, 480, 1);
+    {  
+        super(710, 480, 1);
         BurgerAppear(); //method burgerAppear
         prepare(); //method prepare
         BusukAppear(); //method busukAppear
