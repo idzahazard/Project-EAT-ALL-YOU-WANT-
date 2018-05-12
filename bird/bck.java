@@ -28,12 +28,12 @@ public class bck extends World
     private void prepare() 
     {
         Bird bird = new Bird();
-        addObject(bird, 648, 403);
+        addObject(bird, 645, 403);
         Counter counter = new Counter();
         addObject(counter, 57, 69);
         Score score = new Score();
         addObject(score, 64, 44);
-        score.setLocation(59, 44);
+        score.setLocation(60, 44);
         bird.setLocation(373, 403);
     }
     public void BurgerAppear()

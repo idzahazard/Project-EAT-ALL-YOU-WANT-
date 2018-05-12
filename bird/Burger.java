@@ -22,8 +22,7 @@ public class Burger extends objek
     {
         if (canSee(Burger.class)) //bila melihat kelas bird
         {
-            ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poin
-            Greenfoot.playSound("boom.wav"); 
+            ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poin        
         }
          if (atWorldEdge())  //bila objek berada di bawah world
         {
