@@ -14,6 +14,19 @@ public class Busuk extends objek
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        setLocation(getX(), getY()+5); 
+        Busuk(); // Add your action code here.
+    }
+     public void Busuk() //method Busuk
+    {
+        if (canSee(Bird.class)) //bila melihat kelas bird
+        {
+            ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poi
+        }
+         if (atWorldEdge())  //bila objek berada di bawah world
+        {
+            getWorld().removeObject(this); //remove object
+        }  
+    }
 }
+
