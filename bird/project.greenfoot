@@ -1,4 +1,7 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=7d2f7a528c555448458454acf681ba86c37cff60
 class.Bird.image=burung.png
 class.Bird.superclass=objek
 class.Burger.image=burger.png
@@ -44,8 +47,8 @@ editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=10
-mainWindow.height=661
-mainWindow.width=1071
+mainWindow.height=651
+mainWindow.width=971
 mainWindow.x=161
 mainWindow.y=3
 package.numDependencies=10
