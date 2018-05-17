@@ -6,6 +6,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+
+//Konstruktor Objek pada World Actor
 public class objek extends Actor
 {
     public boolean atWorldEdge()

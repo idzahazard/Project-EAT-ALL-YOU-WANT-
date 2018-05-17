@@ -12,27 +12,26 @@ public class Counter extends Actor
      * Act - do whatever the Counter wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-     private int totalCount = 0;
-    public void act() 
+     private int totalCount = 0; // Counter default awal = 0
+    public void act() //method act
     {
-       gameOver(); 
+       gameOver();  //method gameOver
     }    
     public Counter() //kelas Counter
     {
-        setImage(new GreenfootImage("0", 40, Color.RED, Color.BLACK)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+        setImage(new GreenfootImage("0", 40, Color.YELLOW, Color.RED)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
     }
     public void Counting (int hitung) // method Counting
     {
         totalCount += hitung; 
-        setImage(new GreenfootImage("" + totalCount, 40, Color.RED, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+        setImage(new GreenfootImage("" + totalCount, 40, Color.YELLOW, Color.RED)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
       
     }
     public void gameOver() //method gameOver
     {
-          if (totalCount >= 50) //bila totalCount >= 50
+          if (totalCount >= 500) //bila totalCount >= 50
         {
             Greenfoot.stop();  // stop permainan
-            Greenfoot.playSound("tada.wav"); //mainkan sound tada.wav
             System.out.println("CONGRATULATION! YOU WON! Click RESET to play again"); //tampilkan tulisan ini
         } 
     }
