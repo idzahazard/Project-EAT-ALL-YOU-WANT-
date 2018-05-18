@@ -22,6 +22,7 @@ public class Busuk extends objek
         if (canSee(Bird.class)) //bila melihat kelas bird
         {
             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poi
+             Greenfoot.playSound("boom.wav"); //Mainkan sound boom.wav
         }
          if (atWorldEdge())  //bila objek berada di bawah world
         {

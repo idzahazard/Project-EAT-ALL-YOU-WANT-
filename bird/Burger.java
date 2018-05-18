@@ -12,11 +12,14 @@ public class Burger extends objek
      * Act - do whatever the Burger wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    private int timer=0; 
+
     public void act() 
     {
-        setLocation(getX(), getY()+6); 
+        setLocation(getX(), getY()+6);
         Bombing();
-       
+      
     }    
     public void Bombing() //method busuk
     {
@@ -27,6 +30,7 @@ public class Burger extends objek
          if (atWorldEdge())  //bila objek berada di bawah world
         {
             getWorld().removeObject(this); //remove object
+            Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav
         }  
     }
 }

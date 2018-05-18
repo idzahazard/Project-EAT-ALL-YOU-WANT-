@@ -32,6 +32,7 @@ public class Counter extends Actor
           if (totalCount >= 500) //bila totalCount >= 50
         {
             Greenfoot.stop();  // stop permainan
+            Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav
             System.out.println("CONGRATULATION! YOU WON! Click RESET to play again"); //tampilkan tulisan ini
         } 
     }
