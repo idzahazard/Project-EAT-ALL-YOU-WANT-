@@ -19,20 +19,20 @@ public class Counter extends Actor
     }    
     public Counter() //kelas Counter
     {
-        setImage(new GreenfootImage("0", 40, Color.YELLOW, Color.RED)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+         setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
     }
     public void Counting (int hitung) // method Counting
     {
-        totalCount += hitung; 
-        setImage(new GreenfootImage("" + totalCount, 40, Color.YELLOW, Color.RED)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+         totalCount += hitung;
+         setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
       
     }
     public void gameOver() //method gameOver
     {
-          if (totalCount >= 500) //bila totalCount >= 50
+          if (totalCount >= 1500) //bila totalCount >= 50
         {
             Greenfoot.stop();  // stop permainan
-            Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav
+            //Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav
             System.out.println("CONGRATULATION! YOU WON! Click RESET to play again"); //tampilkan tulisan ini
         } 
     }

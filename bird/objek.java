@@ -13,11 +13,11 @@ public class objek extends Actor
     public boolean atWorldEdge()
     {
         if(getX() < 10 || getX() > getWorld().getWidth() - 10)
-            return true;
-        if(getY() < 10 || getY() > getWorld().getHeight() - 10)
-            return true;
-        else
-            return false;
+         return true;
+         if(getY() < 10 || getY() > getWorld().getHeight() - 10)
+         return true;
+         else
+         return false;
     }
     /**
      * Act - do whatever the objek wants to do. This method is called whenever

@@ -52,6 +52,7 @@ public class bck extends World
             addObject(new Busuk(), Greenfoot.getRandomNumber(519),21);   
         } 
     }
+  
 }
         
 
