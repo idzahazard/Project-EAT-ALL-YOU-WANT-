@@ -24,7 +24,7 @@ public class Burger extends objek
          if (atWorldEdge())  //bila objek berada di bawah world
         {
             getWorld().removeObject(this); //remove object
-            Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav
+            Greenfoot.playSound("ohno.mp3"); // mainkan sound ohno.mp3
         }  
     }
 }
