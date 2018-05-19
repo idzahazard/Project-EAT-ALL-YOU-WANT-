@@ -24,6 +24,13 @@ public class Bird extends objek
            eat(Burger.class); //eat kelas objek banana
            ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(10); // kelas counter ditambah sebanyak 10 poin
        }
+       if (canSee(Busuk.class)) 
+         {
+             Greenfoot.stop();
+             gameover gover = new gameover();
+             getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2); 
+         }
+       
     }
     public void moveBird() //method moveMonkey
     {
