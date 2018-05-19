@@ -5,7 +5,6 @@ target4.type=ClassTarget
 <<<<<<<=HEAD
 target8.showInterface=false
 class.gameover.image=Game-Over-Man-600x309.png
-dependency10.from=bck
 dependency3.from=Bird
 target3.height=50
 target5.height=50

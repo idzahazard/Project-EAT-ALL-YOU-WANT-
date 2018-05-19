@@ -15,7 +15,7 @@ public class bck extends World
      */
     public bck()
     {  
-        super(700, 450, 1);
+        super(710, 450, 1);
         
         BurgerAppear(); //method burgerAppear
         prepare(); //method prepare

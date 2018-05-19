@@ -36,11 +36,11 @@ public class Bird extends objek
     {
           if (Greenfoot.isKeyDown("left")) //bila arah panah ke kiri ditekan
         {
-            move(-15); //bergerak ke -7
+            move(-15); //bergerak ke -15
         }
         if (Greenfoot.isKeyDown("right")) //bila arah panah ke kanan ditekan
         {
-           move(15); //bergerak ke 7
+           move(15); //bergerak ke 15
         }
     }
 }
