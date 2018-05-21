@@ -29,7 +29,7 @@ public class Counter extends Actor
     }
     public void gameOver() //method gameOver
     {
-          if (totalCount >= 150) //bila totalCount >= 150
+          if (totalCount >= 999999999) //bila totalCount >= 999999999
         {
             Greenfoot.stop();  // stop permainan
             Greenfoot.playSound("bananafall.wav"); //Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav

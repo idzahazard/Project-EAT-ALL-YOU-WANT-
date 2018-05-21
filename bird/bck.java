@@ -29,7 +29,7 @@ public class bck extends World
     private void prepare() //method prepare untuk menentukan posisi dari kelas objek masing-masing
     {
         Bird bird = new Bird();
-        addObject(bird, 648, 403);
+        addObject(bird, 640, 403);
         Counter counter = new Counter();
         addObject(counter, 57, 69);
         Score score = new Score();

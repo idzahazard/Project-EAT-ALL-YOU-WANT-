@@ -39,6 +39,7 @@ public class objek extends Actor
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         if(actor != null) {
             getWorld().removeObject(actor);
+            Greenfoot.playSound("eat.mp3"); // mainkan sound eat.mp3
         }
     }  
 }
