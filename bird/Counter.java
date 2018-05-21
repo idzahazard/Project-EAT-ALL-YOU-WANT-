@@ -29,10 +29,10 @@ public class Counter extends Actor
     }
     public void gameOver() //method gameOver
     {
-          if (totalCount >= 1500) //bila totalCount >= 50
+          if (totalCount >= 150) //bila totalCount >= 150
         {
             Greenfoot.stop();  // stop permainan
-            //Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav
+            Greenfoot.playSound("bananafall.wav"); //Greenfoot.playSound("bananafall.wav"); // mainkan sound bananafall.wav
             System.out.println("CONGRATULATION! YOU WON! Click RESET to play again"); //tampilkan tulisan ini
         } 
     }
