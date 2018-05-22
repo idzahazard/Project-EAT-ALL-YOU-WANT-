@@ -29,6 +29,7 @@ public class Bird extends objek
              Greenfoot.stop();
              gameover gover = new gameover();
              getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2); 
+             Greenfoot.playSound("gameover.mp3"); // mainkan sound gameover.mp3
          }
        
     }
